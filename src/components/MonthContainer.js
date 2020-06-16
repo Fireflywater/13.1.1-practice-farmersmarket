@@ -293,7 +293,7 @@ class MonthContainer extends React.Component {
     return (
       <React.Fragment>
         {availableProduce.map((month, index) =>
-          <button onClick={() => this.handleClick(index)}>{month.month}</button>
+          <button onClick={() => this.handleClick(index)}>{month.month.slice(0, 3)}</button>
         )}
         <br/>
         {displayedMonth}

@@ -4,8 +4,9 @@ import PropTypes from "prop-types";
 function Day(props){
   return (
     <React.Fragment>
-      <span>{props.day} / {props.location}</span><br/>
-      <span>{props.hours} / {props.booth}</span>
+      <span><h3>{props.day} at {props.location}</h3></span>
+      <span>Hours: {props.hours}</span><br/>
+      <span><h3>Booth: {props.booth}</h3></span>
     </React.Fragment>
   );
 }

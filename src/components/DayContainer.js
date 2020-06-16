@@ -65,7 +65,7 @@ class DayContainer extends React.Component {
     return (
       <React.Fragment>
         {marketSchedule.map((day, index) =>
-          <button onClick={() => this.handleClick(index)}>{day.day}</button>
+          <button onClick={() => this.handleClick(index)}>{day.day.slice(0, 3)}</button>
         )}
         <br/>
         {displayedDay}

@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function Month(props){
   return (
     <React.Fragment>
-      <span>{props.month}</span><br/><br/>
+      <span><h3>{props.month}'s Available Produce:</h3></span>
       {props.selection.map((produce, index) =>
         <div>
           <span>{produce}</span><br/>
