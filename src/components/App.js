@@ -1,5 +1,6 @@
 import React from 'react';
 import DayContainer from './DayContainer';
+import MonthContainer from './MonthContainer';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <DayContainer />
       </div>
       <div class="col-md-6">
+        <MonthContainer />
       </div>
     </div>
   );
